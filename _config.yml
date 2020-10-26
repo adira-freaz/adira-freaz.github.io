@@ -1,0 +1,7 @@
+title: PT Subang Jaya Lestari
+base_url: "subangjayalestari.com"
+
+collections: 
+  navbar:
+    output: true
+    permalink: /:path

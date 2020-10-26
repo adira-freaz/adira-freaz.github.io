@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "content.css",
+	"sources": [
+		"content.scss",
+		"_sass/_colors.scss"
+	],
+	"sourcesContent": [
+		"@import 'colors';\n\n.content-top {\n    display: grid;\n    grid-template-columns: inherit;\n    grid-column: 1 / -1;\n    height: 100px;\n    width: 100vw;\n    background: $blue;\n    align-items: center;\n}\nh1 {\n    grid-column: content-start / content-end;\n    color: $white;\n}\n\n.content {\n    display: grid;\n    grid-template-columns: inherit;\n    grid-column: content-start / content-end;\n    grid-auto-rows: min-content;\n    min-height: 90vh;\n    justify-content: center;\n}\n\n.content h1 {\n    font-size: 24px;\n    color: $blue;\n}\n\np {\n    grid-column: content-start / content-end;\n    text-align: justify;\n}\n\nul {\n    grid-column: content-start / content-end;\n    text-align: justify;\n}\n.content-dropdown {\n    display: grid;\n    grid-template-columns: inherit;\n    grid-template-rows: min-content;\n    grid-column: content-start / content-end;\n    align-items: center;\n}\n\n.content-dropdown img {\n    grid-column: span 2;\n    width: 100%;\n}",
+		"$white: rgb(230,230,230);\r\n$blue: rgb(29, 45, 80);\r\n$gray: rgb(100,100,100);\r\n$black: rgb(24,24,24);"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,YAAY,CAAC,EACT,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,WAAW,EAAE,MAAM,EACnB,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,KAAK,EACZ,UAAU,ECPP,OAAe,EDQlB,WAAW,EAAE,MAAM,GACtB;;AACD,AAAA,EAAE,CAAC,EACC,WAAW,EAAE,2BAA2B,EACxC,KAAK,ECbD,OAAgB,GDcvB;;AAED,AAAA,QAAQ,CAAC,EACL,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,WAAW,EAAE,2BAA2B,EACxC,cAAc,EAAE,WAAW,EAC3B,UAAU,EAAE,IAAI,EAChB,eAAe,EAAE,MAAM,GAC1B;;AAED,AAAA,QAAQ,CAAC,EAAE,CAAC,EACR,SAAS,EAAE,IAAI,EACf,KAAK,EC1BF,OAAe,GD2BrB;;AAED,AAAA,CAAC,CAAC,EACE,WAAW,EAAE,2BAA2B,EACxC,UAAU,EAAE,OAAO,GACtB;;AAED,AAAA,EAAE,CAAC,EACC,WAAW,EAAE,2BAA2B,EACxC,UAAU,EAAE,OAAO,GACtB;;AACD,AAAA,iBAAiB,CAAC,EACd,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,kBAAkB,EAAE,WAAW,EAC/B,WAAW,EAAE,2BAA2B,EACxC,WAAW,EAAE,MAAM,GACtB;;AAED,AAAA,iBAAiB,CAAC,GAAG,CAAC,EAClB,WAAW,EAAE,MAAM,EACnB,KAAK,EAAE,IAAI,GACd"
+}

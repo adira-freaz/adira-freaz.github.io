@@ -1,0 +1,55 @@
+---
+
+---
+
+@import 'colors';
+
+.content-top {
+    display: grid;
+    grid-template-columns: inherit;
+    grid-column: 1 / -1;
+    height: 100px;
+    width: 100vw;
+    background: $blue;
+    align-items: center;
+}
+h1 {
+    grid-column: content-start / content-end;
+    color: $white;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: inherit;
+    grid-column: content-start / content-end;
+    grid-auto-rows: min-content;
+    min-height: 90vh;
+    justify-content: center;
+}
+
+.content h1 {
+    font-size: 24px;
+    color: $blue;
+}
+
+p {
+    grid-column: content-start / content-end;
+    text-align: justify;
+}
+
+ul {
+    grid-column: content-start / content-end;
+    text-align: justify;
+}
+.content-dropdown {
+    display: grid;
+    grid-template-columns: inherit;
+    grid-template-rows: min-content;
+    grid-column: content-start / content-end;
+    align-items: center;
+}
+
+.content-dropdown img {
+    grid-column: span 2;
+    width: 100%;
+}
