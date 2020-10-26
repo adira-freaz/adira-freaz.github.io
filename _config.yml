@@ -1,5 +1,6 @@
 title: PT Subang Jaya Lestari
-base_url: "https://rogerferdinan.github.io/subang-jaya-lestari-baru/"
+base_url: "/subang-jaya-lestari-baru"
+url: "https://rogerferdinan.github.io"
 
 collections: 
   navbar:
