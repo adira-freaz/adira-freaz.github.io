@@ -2,11 +2,9 @@
 layout: slideshow
 title: Home
 extra_css:
-- main
 - slideshow
 js_file:
 - slideshow
-- dropdown
 
 ---
 
