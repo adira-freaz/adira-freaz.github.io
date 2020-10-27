@@ -16,7 +16,7 @@
 			<div class="dropdown-content">
 				{% for navbar in site.navbar %}
 					{% if navbar.path contains '/about/' %}
-						<a href="{{ navbar.url }}">{{ navbar.title }}</a>
+						<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}</a>
 					{% endif %}
 				{% endfor %}
 			</div>
@@ -29,7 +29,7 @@
 			<div class="dropdown-content">
 				{% for navbar in site.navbar %}
 					{% if navbar.path contains '/residential/' %}
-						<a href="{{ navbar.url }}">{{ navbar.title }}</a>
+						<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}</a>
 					{% endif %}
 				{% endfor %}
 			</div>
@@ -37,7 +37,7 @@
 		{% for navbar in site.navbar %}
 			{% unless navbar.path contains '/about/' or navbar.path contains '/residential/' %}
 				<li>
-					<a href="{{ navbar.url }}">{{ navbar.title }}</a>
+					<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}</a>
 				</li>
 			{% endunless %}
 		{% endfor %}
