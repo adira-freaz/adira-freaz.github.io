@@ -13,6 +13,6 @@
 		Copyright &copy 2020. All rights reserved.
 	</div>
 	<div class="footer-content">
-		<a href="mailto:pt.subangjayalestaribaru@gmail.com"><img src= "{{ site.base_url }}assets/images/email.png" alt="email" class="footer-img"></a>
+		<a href="mailto:pt.subangjayalestaribaru@gmail.com"><img src= "{{ site.base_url }}/assets/images/email.png" alt="email" class="footer-img"></a>
 	</div>
 </div>
