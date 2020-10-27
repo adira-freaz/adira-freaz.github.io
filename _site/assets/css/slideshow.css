@@ -1,6 +1,6 @@
 .slideshow-container { grid-column: 1 / -1; background: #181818; height: 92vh; width: 100vw; display: flex; flex-direction: column; justify-content: center; align-items: center; overflow-y: hidden; }
 
-.slideshow-content { object-fit: cover; object-position: 50% 50%; height: 94vh; width: 100vw; z-index: -1; }
+.slideshow-content { object-fit: cover; object-position: 50% 50%; width: 100vw; height: 94vh; z-index: -1; }
 
 .fade { -webkit-animation-name: fade; -webkit-animation-duration: 1s; animation-name: fade; animation-duration: 1s; }
 

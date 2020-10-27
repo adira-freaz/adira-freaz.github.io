@@ -4,21 +4,21 @@ body { margin: 0; padding: 0; font-family: serif; }
 
 .container { display: grid; grid-template-columns: inherit; grid-column-gap: inherit; grid-column: 1 / -1; min-height: 100vh; justify-content: center; }
 
-.header { display: grid; grid-template-columns: inherit; grid-column: 1 / -1; background: #e6e6e6; color: #646464; min-height: 8vh; top: 0; position: sticky; z-index: 1; }
+.header { display: grid; grid-template-columns: inherit; grid-column: 1 / -1; background: #e6e6e6; color: #505050; min-height: 8vh; top: 0; position: sticky; z-index: 1; }
 
-.navbar { grid-column: content-start / content-end; display: flex; flex-direction: row; align-items: center; justify-content: space-between; }
+.navbar { grid-column: content-start / content-end; display: flex; flex-direction: row; align-items: center; justify-content: space-between; top: 0; position: sticky; }
 
-.img-header { width: 20vw; }
+.img-header { height: 5vh; width: auto; }
 
 .navbar li, .li { list-style: none; padding: 2vh 0.8vw 0; display: flex; justify-content: space-between; align-items: center; }
 
-.dropdown-content { background: #e6e6e6; color: #646464; position: absolute; text-decoration: none; display: none; flex-direction: column; }
+.dropdown-content { background: #e6e6e6; color: #505050; position: absolute; text-decoration: none; display: none; flex-direction: column; }
 
 .dropdown-content.show { display: flex; }
 
-.triangle-down { width: 0; height: 0; border-left: 0.3vw solid transparent; border-right: 0.3vw solid transparent; border-top: 0.4vw solid #646464; }
+.triangle-down { width: 0; height: 0; border-left: 0.3vw solid transparent; border-right: 0.3vw solid transparent; border-top: 0.4vw solid #505050; }
 
-.triangle-up { width: 0; height: 0; border-left: 0.3vw solid transparent; border-right: 0.3vw solid transparent; border-bottom: 0.4vw solid #646464; }
+.triangle-up { width: 0; height: 0; border-left: 0.3vw solid transparent; border-right: 0.3vw solid transparent; border-bottom: 0.4vw solid #505050; }
 
 .dropdown-content a { padding: 1vh 0.5vw; }
 

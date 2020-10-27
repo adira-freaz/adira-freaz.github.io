@@ -1,7 +1,7 @@
 <div class="header">
 	<div class="navbar" id="topnav">
 		<div class="topnav-wrapper">
-			<a href="{{ site.base_url }}/"><img src={{ "assets/images/subang-jaya-lestari-baru.png" | relative_url }} class="img-header"></a>
+			<a href="{{ site.base_url }}/"><img src={{ "assets/images/subang-jaya-lestari-baru.png" | relative_url }} alt="home" class="img-header" width="443.91" height="48"></a>
 			<a href="javascript:void(0);" class="icon" onclick="rNavbar(); aMenu(this)">
 				<div class="bar1"></div>
 				<div class="bar2"></div>
@@ -29,16 +29,16 @@
 			<div class="dropdown-content">
 				{% for navbar in site.navbar %}
 					{% if navbar.path contains '/residential/' %}
-						<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}</a>
+						<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}"</a>
 					{% endif %}
 				{% endfor %}
 			</div>
 		</div>
 		{% for navbar in site.navbar %}
 			{% unless navbar.path contains '/about/' or navbar.path contains '/residential/' %}
-				<li>
+				<div class="li">
 					<a href="{{ site.base_url }}{{ navbar.url }}">{{ navbar.title }}</a>
-				</li>
+				</div>
 			{% endunless %}
 		{% endfor %}
 	</div>
