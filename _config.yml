@@ -7,3 +7,6 @@ collections:
   navbar:
     output: true
     permalink: /:path
+
+plugins:
+  - jekyll-seo-tag

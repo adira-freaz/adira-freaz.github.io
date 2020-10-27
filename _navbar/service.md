@@ -10,7 +10,7 @@ layout: content
     </p>
     {% for image in site.static_files %}
         {% if image.path contains "images/service/" and image.basename contains "design" %}
-            <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}">
+            <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
         {% endif %}
     {% endfor %}
 </div>
@@ -22,7 +22,7 @@ layout: content
     </p>
     {% for image in site.static_files %}
         {% if image.path contains "images/service/" and image.basename contains "tanah" %}
-            <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}">
+            <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
         {% endif %}
     {% endfor %}
 </div>
