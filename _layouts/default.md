@@ -21,9 +21,7 @@
 		<div class="outer-container">
 			<div class="container">
 				{% include header.md %}
-				<div class="content">
 					{{ content }}
-				</div>
 			</div>
 			{% include footer.md %}
 		</div>
