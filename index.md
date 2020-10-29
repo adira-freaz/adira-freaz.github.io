@@ -12,9 +12,9 @@ js_file:
 <div class="slideshow-container">
 			<span class="mySlides fade">
 					<picture>
-					<source media="(min-width: 1001px)" srcset="{{ site.base_url }}/assets/home/perumahan-subang-jaya-lestari-baru-1.jpg" alt="perumahan-subang-jaya-lestari-baru-1" class="slideshow-content" width="1920" height="911">
-					<source media="(max-width: 1000px)" srcset="{{ site.base_url }}/assets/home/perumahan-subang-jaya-lestari-baru-1-mobile.jpg" alt="perumahan-subang-jaya-lestari-baru-1-mobile" class="slideshow-content">
-					<img src="{{ site.base_url }}/assets/home/perumahan-subang-jaya-lestari-baru-1.jpg" alt="perumahan-subang-jaya-lestari-baru-1-placeholder" class="slideshow-content" width="1920" height="911" />
+					<source media="(min-width: 1001px)" srcset="{{ site.base_url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1.jpg" alt="perumahan-subang-jaya-lestari-baru-1" class="slideshow-content" width="1920" height="911">
+					<source media="(max-width: 1000px)" srcset="{{ site.base_url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1-mobile.jpg" alt="perumahan-subang-jaya-lestari-baru-1-mobile" class="slideshow-content">
+					<img src="{{ site.base_url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1.jpg" alt="perumahan-subang-jaya-lestari-baru-1-placeholder" class="slideshow-content" width="1920" height="911" />
 					</picture>
 				</span>
 		{% for image in site.static_files %}
