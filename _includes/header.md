@@ -10,8 +10,8 @@
 		</div>
 		<div class="dropdown" onclick="myDropDown(this)">
 			<a href="javascript:void(0);" class="li">
-				<div>About</div>
-				<div class="triangle-down" id="triangle"></div>
+				<span>About</span>
+				<span class="triangle-down" id="triangle"></span>
 			</a>
 			<div class="dropdown-content">
 				{% for navbar in site.navbar %}
@@ -23,8 +23,8 @@
 		</div>
 		<div class="dropdown" onclick="myDropDown(this)">
 			<a href="javascript:void(0);" class="li">
-				<div>Residential</div>
-				<div class="triangle-down" id="triangle"></div>
+				<span>Residential</span>
+				<span class="triangle-down" id="triangle"></span>
 			</a>
 			<div class="dropdown-content">
 				{% for navbar in site.navbar %}

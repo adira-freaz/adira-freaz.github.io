@@ -1,7 +1,7 @@
 ---
 
 ---
-{% seo %}
+{% seo title=false %}
 <!DOCTYPE html>
 <html lang="id">
 	<head>
@@ -27,6 +27,7 @@
 	{% if page.js_file %}
 		{% for js in page.js_file %}
 			<script type="text/javascript" src="{{ site.base_url }}/assets/js/{{ js }}.js"></script>
+			<script type="text/javascript" src="{{ site.base_url }}/assets/js/responsive-navbar.js"></script>
 		{% endfor %}
 	{% endif %}
 	<script type="text/javascript" src="{{ site.base_url }}/assets/js/dropdown-navbar.js"></script>

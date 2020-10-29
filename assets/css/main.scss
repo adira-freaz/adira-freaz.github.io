@@ -8,41 +8,47 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: serif;
+	overflow-x: hidden;
 }
 .outer-container {
 	display: grid;
-	grid-template-columns: 1fr [content-start] repeat( 4, minmax(100px, 200px) ) [content-end] 1fr;
+	grid-template-columns: 2fr [content-start] 4fr [content-end] 2fr;
+	grid-auto-rows: auto;
 	grid-column-gap: 0.5vw;
 	justify-content: center;
-	overflow-x: hidden;
+	width: 100vw;
 }
 .container {
 	display: grid;
 	grid-template-columns: inherit;
 	grid-column-gap: inherit;
 	grid-column: 1 / -1;
-	min-height: 100vh;
 	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
 }
 	.header {
+		font-family: Arial;
 		display: grid;
 		grid-template-columns: inherit;
 		grid-column: 1 / -1;
+		align-items: center;
 		background: $white;
 		color: $gray;
+		width: 100%;
 		min-height: 8vh;
+		font-size: 0.8vw;
 		top: 0;
 		position: sticky;
 		z-index: 1;
 	}
 		.navbar {
-			grid-column: content-start / content-end;
 			display: flex;
+			grid-column: content-start / content-end;
 			flex-direction: row;
 			align-items: center;
 			justify-content: space-between;
-			top: 0;
-			position: sticky;
+			width: 100%;
 		}
 			.img-header {
 				height: 5vh;
@@ -68,25 +74,43 @@ body {
 				display: flex;
 			}
 			.triangle-down {
-			width: 0;
-			height: 0;
-			border-left: 0.3vw solid transparent;
-			border-right: 0.3vw solid transparent;
-			border-top: 0.4vw solid $gray;
+				width: 0;
+				height: 0;
+				border-left: 0.3vw solid transparent;
+				border-right: 0.3vw solid transparent;
+				border-top: 0.4vw solid $gray;
 			}
 			.triangle-up {
-			width: 0;
-			height: 0;
-			border-left: 0.3vw solid transparent;
-			border-right: 0.3vw solid transparent;
-			border-bottom: 0.4vw solid $gray;
+				width: 0;
+				height: 0;
+				border-left: 0.3vw solid transparent;
+				border-right: 0.3vw solid transparent;
+				border-bottom: 0.4vw solid $gray;
 			}
 			.dropdown-content a {
 				padding: 1vh 0.5vw;
 			}
 			.navbar a {
 				text-decoration: none;
-				color: inherit;
+				color: $gray;
+			}
+			.navbar.responsive .dropdown.responsive .dropdown-content {
+				display: flex;
+			}
+			.navbar a.icon {
+				float: right;
+				display: flex;
+			}
+
+			.navbar.responsive {
+				flex-direction: column;
+			}
+			.navbar.responsive a.icon {
+				display: flex;
+			}
+			.navbar.responsive li, .navbar.responsive .li {
+				display: flex;
+				text-align: left;
 			}
 .footer {
 	grid-column: 1 / -1;
@@ -113,4 +137,83 @@ body {
 		margin-top: 1.8vh;
 		margin-left: 0vw;
 	}
+}
+@media screen and (max-width: 600px) {
+	.outer-container {
+		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
+		min-height: 100vh;
+	}
+		.container {
+			min-height: auto;
+		}
+		.header {
+			min-height: 5vh;
+		}
+		.navbar {
+			flex-direction: column;
+			font-size: 1rem;
+		}
+			.topnav-wrapper {
+				width: 100vw;
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+			}
+			.img-header {
+				height: auto;
+				width: 80vw;
+			}
+			.navbar li, .li {
+				width: 90vw;
+				display: none;
+			}
+			.icon {
+				display: flex;
+				float: right;
+				flex-direction: column;
+				justify-content: space-between;
+				height: 21px;
+			}
+				.bar1, .bar2, .bar3 {
+					background: $gray;
+					width: 35px;
+					height: 5px;
+					transition: 0.4s;
+				}
+				.show .bar1 {
+				  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
+				  transform: rotate(-45deg) translate(-5px, 5px);
+				}
+				.show .bar2 {
+					opacity: 0;
+				}
+				.show .bar3 {
+				  -webkit-transform: rotate(45deg) translate(-5px, -5px);
+				  transform: rotate(45deg) translate(-5px, -5px);
+				}
+			.dropdown-content {
+				position: relative;
+				font-size: .7rem;
+			}
+			.triangle-down {
+				border-left: 0.8rem solid transparent;
+				border-right: 0.8rem solid transparent;
+				border-top: 0.8rem solid $gray;
+			}
+			.triangle-up {
+				border-left: 0.8rem solid transparent;
+				border-right: 0.8rem solid transparent;
+				border-bottom: 0.8rem solid $gray;
+			}
+		.footer {
+			flex-direction: column;
+			justify-content: center;
+			text-align: center;
+			padding: 0;
+			min-height: 40vh;
+		}
+		.footer-img {
+			width: 15vw;
+			height: auto;
+		}
 }

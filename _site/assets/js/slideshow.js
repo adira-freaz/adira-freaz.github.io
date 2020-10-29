@@ -1,10 +1,9 @@
-var slideIndex = 0;
 showSlides();
 
 function showSlides() {
-	var i;
+	var slideIndex = 0;
 	var slides = document.getElementsByClassName("mySlides");
-	for (i = 0; i < slides.length; i++) {
+	for (var i=0; i < slides.length; i++) {
 		slides[i].style.display = "none";
 	}
 	slideIndex++;
