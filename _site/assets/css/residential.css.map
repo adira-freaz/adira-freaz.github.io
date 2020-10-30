@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "residential.css",
+	"sources": [
+		"residential.scss",
+		"_sass/_colors.scss"
+	],
+	"sourcesContent": [
+		"@import 'colors';\n\n.brochure {\n    display: grid;\n    grid-column: content-start / content-end;\n    grid-template-columns: repeat(2, 1fr);\n    grid-template-rows: auto;\n    gap: inherit;\n    height: 100%;\n    padding-top: 10px;\n}\n.brochure img {\n    height: 100%;\n}\ntable {\n    grid-column: content-start / content-end;\n    text-align: center;\n    border-collapse: collapse;\n    border-spacing: 0;\n    border:2px solid $black;\n    margin-top: 10px;\n}\nth {\n    border:2px solid $black;\n    padding: 5px 10px;\n}\n\ntd {\n    border:2px solid $black;\n    padding: 5px 10px;\n}\n\n@media screen and (max-width:600px) {\n    .brochure {\n        grid-template-columns: auto;\n    }\n}\n",
+		"$white: rgb(240,240,240);\r\n$blue: rgb(29, 45, 80);\r\n$gray: rgb(70,70,70);\r\n$black: rgb(24,24,24);"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,SAAS,CAAC,EACN,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,2BAA2B,EACxC,qBAAqB,EAAE,cAAc,EACrC,kBAAkB,EAAE,IAAI,EACxB,GAAG,EAAE,OAAO,EACZ,MAAM,EAAE,IAAI,EACZ,WAAW,EAAE,IAAI,GACpB;;AACD,AAAA,SAAS,CAAC,GAAG,CAAC,EACV,MAAM,EAAE,IAAI,GACf;;AACD,AAAA,KAAK,CAAC,EACF,WAAW,EAAE,2BAA2B,EACxC,UAAU,EAAE,MAAM,EAClB,eAAe,EAAE,QAAQ,EACzB,cAAc,EAAE,CAAC,EACjB,MAAM,EAAC,GAAG,CAAC,KAAK,CChBZ,OAAa,EDiBjB,UAAU,EAAE,IAAI,GACnB;;AACD,AAAA,EAAE,CAAC,EACC,MAAM,EAAC,GAAG,CAAC,KAAK,CCpBZ,OAAa,EDqBjB,OAAO,EAAE,QAAQ,GACpB;;AAED,AAAA,EAAE,CAAC,EACC,MAAM,EAAC,GAAG,CAAC,KAAK,CCzBZ,OAAa,ED0BjB,OAAO,EAAE,QAAQ,GACpB;;AAED,MAAM,8BACF,GAAA,AAAA,SAAS,CAAC,EACN,qBAAqB,EAAE,IAAI,GAC9B,EAAA"
+}

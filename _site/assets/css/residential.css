@@ -1,0 +1,13 @@
+.brochure { display: grid; grid-column: content-start / content-end; grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; gap: inherit; height: 100%; padding-top: 10px; }
+
+.brochure img { height: 100%; }
+
+table { grid-column: content-start / content-end; text-align: center; border-collapse: collapse; border-spacing: 0; border: 2px solid #181818; margin-top: 10px; }
+
+th { border: 2px solid #181818; padding: 5px 10px; }
+
+td { border: 2px solid #181818; padding: 5px 10px; }
+
+@media screen and (max-width: 600px) { .brochure { grid-template-columns: auto; } }
+
+/*# sourceMappingURL=residential.css.map */

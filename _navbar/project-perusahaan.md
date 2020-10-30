@@ -1,6 +1,7 @@
 ---
 title: Project Perusahaan
 layout: content
+
 ---
 
 PT SUBANG JAYA LESTARI BARU mengelola proyek sebagai developer untuk beberapa perumahan di wilayah Karawang dan Cikarang di antaranya

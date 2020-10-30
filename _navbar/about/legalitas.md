@@ -1,6 +1,7 @@
 ---
 title: Legalitas Perusahaan
 layout: content
+
 ---
 
 * SK Menkumham ANU -PH.01.03-0368273

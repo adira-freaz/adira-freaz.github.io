@@ -9,6 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ site.description }}">
 		<meta lang="id">
+		<link rel="shortcut icon" href="{{ site.base-url }}/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/content.css">
 		{% if page.extra_css %}
@@ -22,12 +23,13 @@
 		<div class="outer-container">
 			<div class="container">
 				{% include header.md %}
-				<div class="content-top">
-					<h1>{{ page.title }}</h1>
-				</div>
-				<div class="content">
-					{{ content }}
-				</div>
+					<div class="content-top">
+						<h1>{{ page.title }}</h1>
+					</div>
+						<div class="content">
+							{{ content }}
+						</div>
+					</div>
 			</div>
 			{% include footer.md %}
 		</div>

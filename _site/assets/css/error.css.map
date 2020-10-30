@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "error.css",
+	"sources": [
+		"error.scss",
+		"_sass/_colors.scss"
+	],
+	"sourcesContent": [
+		"@import 'colors';\nh1 {\n    font-size: 2rem;\n    color: $gray;\n    justify-content: center;\n    text-align: center;\n}",
+		"$white: rgb(240,240,240);\r\n$blue: rgb(29, 45, 80);\r\n$gray: rgb(70,70,70);\r\n$black: rgb(24,24,24);"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,EAAE,CAAC,EACC,SAAS,EAAE,IAAI,EACf,KAAK,ECDF,OAAa,EDEhB,eAAe,EAAE,MAAM,EACvB,UAAU,EAAE,MAAM,GACrB"
+}
