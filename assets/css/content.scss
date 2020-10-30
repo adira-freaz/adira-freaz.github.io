@@ -26,13 +26,14 @@ h1 {
     gap: 10px 10px;
     min-height: 90vh;
     justify-content: center;
+    align-items: center;
     padding-bottom: 10px;
 }
-
-img {
-    width: 100%;
+picture {
+    grid-column: content-start / content-end;
+    display: flex;
+    justify-content: center;
 }
-
 .content p {
     grid-column: content-start / content-end;
     text-align: justify;
@@ -45,5 +46,8 @@ ul {
 @media screen and (max-width: 600px) {
     .content {
         grid-template-columns: [content-start] 1fr [content-end];
+    }
+    img {
+        width: 90vw;
     }
 }

@@ -139,7 +139,7 @@ body {
 		margin-left: 0vw;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		min-height: 100vh;
