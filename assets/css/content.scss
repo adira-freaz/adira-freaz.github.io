@@ -22,7 +22,7 @@ h1 {
     display: grid;
     grid-template-columns: [content-start] repeat(2, 1fr) [content-end];
     grid-column: content-start / content-end;
-    grid-auto-rows: min-content;
+    grid-auto-rows: max-content;
     gap: 10px 10px;
     min-height: 90vh;
     justify-content: center;
