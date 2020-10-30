@@ -14,7 +14,7 @@
 		<meta property="og:description" content="{{ site.description }}">
 		<meta property="og:site.name" content="{{ site.title }}">
 		<meta property="og:image" content="{{ site.base_url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1.jpg">
-		<link rel="shortcut icon" href="{{ site.base-url }}/favicon.ico">
+		<link rel="shortcut icon" href="{{ site.base_url }}/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/content.css">
 		{% if page.extra_css %}
