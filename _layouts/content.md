@@ -7,13 +7,14 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:locale" content="id_ID">
 		<meta property="og:type" content="website" />
 		<meta property="og:title" content="{{ site.title }} | {{ page.title }}">
 		<meta name="description" content="{{ site.description | truncate: 160 }}">
 		<meta property="og:description" content="{{ site.description }}">
 		<meta property="og:site.name" content="{{ site.title }}">
-		<meta property="og:image" content="{{ site.base_url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1.jpg">
+		<meta property="og:image" content="{{ site.url }}/assets/images/home/perumahan-subang-jaya-lestari-baru-1.jpg">
 		<link rel="shortcut icon" href="{{ site.base_url }}/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/content.css">
