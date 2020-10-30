@@ -8,7 +8,6 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="{{ site.description }}">
-		<meta lang="id">
 		<link rel="shortcut icon" href="{{ site.base-url }}/favicon.ico">
 		<link rel="stylesheet" type="text/css" href="{{ site.base_url }}/assets/css/main.css">
 		{% if page.extra_css %}

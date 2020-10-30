@@ -1,8 +1,8 @@
-.brochure { display: grid; grid-column: content-start / content-end; grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; gap: inherit; height: 100%; padding-top: 10px; }
+.brochure { display: grid; grid-column: content-start / content-end; grid-template-columns: [content-start] repeat(2, 1fr) [content-end]; grid-template-rows: auto; gap: 10px 10px; padding-top: 10px; }
 
-.brochure img { height: 100%; }
+.brochure img { width: 100%; }
 
-table { grid-column: content-start / content-end; text-align: center; border-collapse: collapse; border-spacing: 0; border: 2px solid #181818; margin-top: 10px; }
+table { grid-column: content-start / content-end; text-align: center; border-collapse: collapse; border-spacing: 0; border: 2px solid #181818; margin-top: 10px; font-size: 12px; }
 
 th { border: 2px solid #181818; padding: 5px 10px; }
 

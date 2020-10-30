@@ -18,7 +18,7 @@ js_file:
         </p>
         {% for image in site.static_files %}
             {% if image.path contains "images/service/" and image.basename contains "design" %}
-                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
+                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" loading="lazy" width="395" height="295">
             {% endif %}
         {% endfor %}
     </div>
@@ -35,7 +35,7 @@ js_file:
         </p>
         {% for image in site.static_files %}
             {% if image.path contains "images/service/" and image.basename contains "tanah" %}
-                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
+                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" loading="lazy" width="395" height="295">
             {% endif %}
         {% endfor %}
     </div>
@@ -64,7 +64,7 @@ js_file:
         </p>
         {% for image in site.static_files %}
             {% if image.path contains "images/service/" and image.basename contains "konstruksi" %}
-                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
+                <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" loading="lazy" width="395" height="295">
             {% endif %}
         {% endfor %}
     </div>

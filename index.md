@@ -15,7 +15,7 @@ js_file:
 					<picture>
 					<source media="(min-width: 1001px)" srcset="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" class="slideshow-content">
 					<source media="(max-width: 1000px)" srcset="{{ site.base_url }}{{ image.path | remove:'.jpg' }}-mobile.jpg" alt="{{ image.basename | replace:'-', ' ' }} mobile" class="slideshow-content">
-					<img src="{{ site.base_url }}{{ image.path | remove:'.jpg' }}-placeholder.jpg" alt="{{ image.basename | replace:'-', ' ' }} placeholder" class="slideshow-content">
+					<img src="{{ site.base_url }}{{ image.path | remove:'.jpg' }}-placeholder.jpg" loading="lazy" alt="{{ image.basename | replace:'-', ' ' }} placeholder" class="slideshow-content" width="100%" height="100%" />
 					</picture>
 				</div>
 				{% endunless %}
