@@ -29,6 +29,10 @@ h1 {
     padding-bottom: 10px;
 }
 
+img {
+    width: 100%;
+}
+
 .content p {
     grid-column: content-start / content-end;
     text-align: justify;
