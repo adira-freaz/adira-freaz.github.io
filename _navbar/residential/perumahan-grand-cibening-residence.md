@@ -7,7 +7,7 @@ extra_css:
 <div class="brochure">
 {% for image in site.static_files %}
     {% if image.path contains "images/residential/" and image.basename contains "Brosur" %} 
-        <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}" width="395" height="295">
+        <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}">
     {% endif %}
 {% endfor %}
 </div>
