@@ -11,6 +11,13 @@ function rNavbar() {
 		x.className = "navbar";
 	}
 }
-function aMenu(x) {
-	x.classList.toggle("show");
+function aMenu(y) {
+	y.classList.toggle("show");
+	a = document.querySelectorAll(" .dropdown-content");
+	for (var i=0; i < a.length; i++) {
+		if (a[i].classList.contains("show")) {
+			a[i].classList.remove("show");
+			var b = a[i].parentElement.querySelector("a > #triangle").className = "triangle-down";
+		}
+	}
 }

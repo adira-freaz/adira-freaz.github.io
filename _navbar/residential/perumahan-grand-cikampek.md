@@ -13,7 +13,32 @@ extra_css:
 {% endfor %}
 </div>
 
-| Type  | Harga          | Uang Muka    | Maximal KPR    | Angsuran BTN                           |||
-| ^^    | ^^             | ^^           | ^^             | 10 tahun     | 15 tahun     | 20 tahun   |
-| ----- | -------------- | ------------ | -------------- | ------------ | ------------ | -----------|
-| 27/60 | Rp.150,500,000 | Rp.7,525,000 | Rp.142,975,000 | Rp.1,516,500 | Rp.1,130,700 | Rp.943,600 |
+<div class="table">
+<table>
+    <thead>
+        <tr>
+            <th rowspan="2">Tipe</th>
+            <th rowspan="2">Harga</th>
+            <th rowspan="2">Uang Muka</th>
+            <th rowspan="2">Maximal KPR</th>
+            <th colspan="3">Angsuran BTN</th>
+        </tr>
+        <tr>
+            <th rowspan="2">10 tahun</th>
+            <th rowspan="2">15 tahun</th>
+            <th rowspan="2">20 tahun</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>27/60</td>
+            <td>Rp.150,500,000</td>
+            <td>Rp.7,525,000</td>
+            <td>Rp.142,975,000</td>
+            <td>Rp.1,516,500</td>
+            <td>Rp.1,130,700</td>
+            <td>Rp.943,600</td>
+        </tr>
+    </tbody>
+</table>
+</div>

@@ -14,28 +14,29 @@
 .brochure img {
     width: 100%;
 }
-
-table {
+.table {
     grid-column: content-start / content-end;
+    width: 100%;
+}
+table {
+    width: 100%;
     text-align: center;
     border-collapse: collapse;
     border-spacing: 0;
     border:2px solid $black;
     margin-top: 10px;
-    font-size: 12px;
+    font-size: 1rem;
 }
-th {
+th, td {
     border:2px solid $black;
-    padding: 5px 10px;
-}
-
-td {
-    border:2px solid $black;
-    padding: 5px 10px;
+    padding: 0.5rem;
 }
 
 @media screen and (max-width: 600px) {
     .brochure {
         grid-template-columns: auto;
+    }
+    .table {
+        overflow-x: auto;
     }
 }
