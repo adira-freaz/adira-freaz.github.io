@@ -38,7 +38,7 @@ th, td {
         grid-template-columns: auto;
     }
     .table {
-        overflow: auto;
+        overflow-x: scroll;
     }
     .brochure img {
         width: 90vw;
