@@ -8,6 +8,7 @@
     grid-column: content-start / content-end;
     grid-template-columns: [content-start] repeat(2, 1fr) [content-end];
     grid-template-rows: auto;
+    justify-content: center;
     gap: 10px 10px;
     padding-top: 10px;
 }
