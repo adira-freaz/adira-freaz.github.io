@@ -4,14 +4,12 @@
 
 @import 'colors';
 
-html, body {
+body {
 	margin: 0;
 	padding: 0;
 	font-family: serif;
 	overflow-x: hidden;
 	font-size: 1em;
-	height: 100%;
-    width: 100%;
 }
 .outer-container {
 	display: grid;
@@ -26,6 +24,7 @@ html, body {
 	width: 100vw;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
+	transform: translate3d(0px,0px,0px);
 }
 .container {
 	display: grid;
@@ -159,6 +158,10 @@ html, body {
 	}
 }
 @media screen and (max-width: 1000px) {
+	html, body {
+		height: 100%;
+    	width: 100%;
+	}
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		-webkit-grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
