@@ -23,7 +23,6 @@ body {
 	justify-content: center;
 	width: 100vw;
 	overflow-x: hidden;
-	transform: translate3d(0px,0px,0px);
 }
 .container {
 	display: grid;
@@ -93,16 +92,16 @@ body {
 			.triangle-down {
 				width: 0;
 				height: 0;
-				border-left: .9vh solid transparent;
-				border-right: .9vh solid transparent;
-				border-top: 1.2vh solid $gray;
+				border-left: .6vh solid transparent;
+				border-right: .6vh solid transparent;
+				border-top: .8vh solid $gray;
 			}
 			.triangle-up {
 				width: 0;
 				height: 0;
-				border-left: .75vh solid transparent;
-				border-right: .75vh solid transparent;
-				border-bottom: 1vh solid $gray;
+				border-left: .6vh solid transparent;
+				border-right: .6vh solid transparent;
+				border-bottom: .8vh solid $gray;
 			}
 			.dropdown-content a {
 				padding: 1vh 0.5vw;
