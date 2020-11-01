@@ -162,6 +162,7 @@ body {
 		height: 100%;
 		width: 100%;
 		overflow-x: hidden;
+		position:relative;
 	}
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;

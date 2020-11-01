@@ -38,7 +38,7 @@ th, td {
         grid-template-columns: auto;
     }
     .table {
-        overflow-x: auto;
+        overflow-x: visible;
         transform: translate3d(0px,0px,0px);
         -webkit-overflow-scrolling: touch;
     }
