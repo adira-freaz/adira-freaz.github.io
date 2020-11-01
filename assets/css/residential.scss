@@ -38,7 +38,9 @@ th, td {
         grid-template-columns: auto;
     }
     .table {
-        overflow-x: scroll;
+        overflow-x: auto;
+        transform: translate3d(0px,0px,0px);
+        -webkit-overflow-scrolling: touch;
     }
     .brochure img {
         width: 90vw;
