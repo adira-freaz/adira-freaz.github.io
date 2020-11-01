@@ -150,13 +150,13 @@ html, body {
 		width: auto;
 	}
 
-@media screen and (min-width: 1001px) {
+@media only screen and (min-width: 1001px) {
 	.dropdown .dropdown-content {
 		margin-top: 1.8vh;
 		margin-left: 0vw;
 	}
 }
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		-webkit-grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
@@ -235,7 +235,7 @@ html, body {
 			text-align: center;
 			padding: 0;
 			min-height: 40vh;
-			width: 100vh;
+			width: 100%;
 			font-size: 1rem;
 		}
 		.footer-img {
