@@ -160,7 +160,8 @@ body {
 @media screen and (max-width: 1000px) {
 	html, body {
 		height: 100%;
-    	width: 100%;
+		width: 100%;
+		overflow-x: hidden;
 	}
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
