@@ -158,16 +158,18 @@ body {
 @media screen and (max-width: 1000px) {
 	html, body {
 		height: 100%;
-		width: 100%;
-		overflow: hidden;
+		width: 100vh;
+		overflow-x: hidden;
 	}
 	.outer-container {
 		grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		-webkit-grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		min-height: 100vh;
+		width: 100vh;
 	}
 		.container {
 			min-height: auto;
+			width: 100vh;
 		}
 		.header {
 			min-height: 5vh;
@@ -238,6 +240,7 @@ body {
 			text-align: center;
 			padding: 0;
 			min-height: 40vh;
+			width: 100vh;
 			font-size: 1rem;
 		}
 		.footer-img {
