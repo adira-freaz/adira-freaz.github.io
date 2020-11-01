@@ -17,7 +17,7 @@
 }
 .table {
     grid-column: content-start / content-end;
-    width: 100%;
+    max-width: 100vw;
 }
 table {
     width: 100%;
@@ -38,8 +38,7 @@ th, td {
         grid-template-columns: auto;
     }
     .table {
-        overflow: auto;
-        max-width: 100vh;
+        overflow: scroll;
     }
     .brochure img {
         width: 90vw;
