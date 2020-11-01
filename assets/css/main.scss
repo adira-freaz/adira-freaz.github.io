@@ -9,6 +9,7 @@ html, body {
 	padding: 0;
 	font-family: serif;
 	overflow: hidden;
+	overflow-y: auto;
 	font-size: 1em;
 }
 .outer-container {
@@ -23,7 +24,6 @@ html, body {
 	justify-content: center;
 	width: 100vw;
 	overflow-x: hidden;
-	overflow-y: visible;
 }
 .container {
 	display: grid;
