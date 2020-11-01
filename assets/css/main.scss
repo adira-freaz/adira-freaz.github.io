@@ -94,9 +94,9 @@ body {
 			.triangle-down {
 				width: 0;
 				height: 0;
-				border-left: .75vh solid transparent;
-				border-right: .75vh solid transparent;
-				border-top: 1vh solid $gray;
+				border-left: .9vh solid transparent;
+				border-right: .9vh solid transparent;
+				border-top: 1.2vh solid $gray;
 			}
 			.triangle-up {
 				width: 0;
@@ -221,7 +221,7 @@ body {
 				width: 90vw;
 			}
 			.dropdown-content a {
-				padding-left: 1rem;
+				padding: .5rem 1rem .5rem 1rem;
 			}
 			.triangle-down {
 				border-left: .6rem solid transparent;
@@ -239,6 +239,7 @@ body {
 			text-align: center;
 			padding: 0;
 			min-height: 40vh;
+			font-size: 1.4rem;
 		}
 		.footer-img {
 			width: 15vw;
