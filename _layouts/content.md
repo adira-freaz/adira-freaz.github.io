@@ -6,7 +6,7 @@
 <html lang="id">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 		<meta property="og:url" content="{{ site.url }}{{ page.url }}">
 		<meta property="og:locale" content="id_ID">
 		<meta property="og:type" content="website" />

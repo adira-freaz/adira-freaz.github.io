@@ -38,8 +38,9 @@ th, td {
         grid-template-columns: auto;
     }
     .table {
-        overflow-x: visible;
+        overflow-x: auto;
         transform: translate3d(0px,0px,0px);
+        -webkit-transform: translate3d(0,0,0);
         -webkit-overflow-scrolling: touch;
     }
     .brochure img {
