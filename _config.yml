@@ -10,3 +10,4 @@ collections:
 
 plugins:
   - jekyll-loading-lazy
+  - jekyll-sitemap
