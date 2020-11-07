@@ -4,7 +4,7 @@ layout: content
 
 ---
 
-* SK Menkumham ANU -PH.01.03-0368273
+* SK Menkumham ANU -PH.01.03 - 0368273
 * Tanda Daftar Perusahaan 100716816564
 * Surat Izin Usaha Perdagangan 503.09 / 2-0551 / dpmptsp / pm-00 / IX / 2017
 * Domisili Usaha / Perusahaan 503 / 059 / SKDL / VIII / 2020 / Kesra

@@ -6,6 +6,10 @@ h1 { grid-column: content-start / content-end; -webkit-grid-column: content-star
 
 picture { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; display: flex; justify-content: center; }
 
+.picture { grid-column: content-start / content-end; display: grid; grid-template-columns: inherit; justify-items: center; align-items: center; }
+
+.picture img { max-width: 100%; height: auto; }
+
 .content p { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; text-align: justify; }
 
 ul { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; text-align: justify; }

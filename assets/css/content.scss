@@ -44,6 +44,17 @@ picture {
     display: flex;
     justify-content: center;
 }
+.picture {
+    grid-column: content-start / content-end;
+    display: grid;
+    grid-template-columns: inherit;
+    justify-items: center;
+    align-items: center;
+}
+.picture img {
+    max-width: 100%;
+    height: auto;
+}
 .content p {
     grid-column: content-start / content-end;
     -webkit-grid-column: content-start / content-end;
