@@ -1,6 +1,6 @@
 .content-top { display: grid; display: -webkit-grid; grid-template-columns: inherit; -webkit-grid-template-columns: inherit; grid-column: 1 / -1; -webkit-grid-column: 1 / -1; width: 100%; height: 100px; background: #1d2d50; align-items: center; }
 
-h1 { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; color: #f0f0f0; }
+.content-top h1 { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; color: #f0f0f0; }
 
 .content { display: grid; display: -webkit-grid; grid-template-columns: [content-start] repeat(2, 1fr) [content-end]; -webkit-grid-template-columns: [content-start] repeat(2, 1fr) [content-end]; grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; grid-auto-rows: max-content; -webkit-grid-auto-rows: max-content; gap: 10px 10px; -webkit-grid-gap: 10px 10px; min-height: 90vh; justify-content: center; align-items: center; padding-bottom: 10px; }
 
@@ -8,7 +8,9 @@ picture { grid-column: content-start / content-end; -webkit-grid-column: content
 
 .picture { grid-column: content-start / content-end; display: grid; grid-template-columns: inherit; justify-items: center; align-items: center; }
 
-.picture img { max-width: 100%; height: auto; }
+picture img { max-width: 100%; height: auto; }
+
+.picture img { width: 100%; height: auto; }
 
 .content p { grid-column: content-start / content-end; -webkit-grid-column: content-start / content-end; text-align: justify; }
 

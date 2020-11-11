@@ -16,7 +16,7 @@
     background: $blue;
     align-items: center;
 }
-h1 {
+.content-top h1 {
     grid-column: content-start / content-end;
     -webkit-grid-column: content-start / content-end;
     color: $white;
@@ -51,8 +51,12 @@ picture {
     justify-items: center;
     align-items: center;
 }
-.picture img {
+picture img{
     max-width: 100%;
+    height: auto;
+}
+.picture img {
+    width: 100%;
     height: auto;
 }
 .content p {

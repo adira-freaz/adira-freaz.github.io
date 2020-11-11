@@ -4,7 +4,7 @@ layout: content
 
 ---
 
-PT SUBANG JAYA LESTARI BARU mengelola proyek sebagai developer untuk beberapa perumahan di wilayah Karawang dan Cikarang di antaranya
+PT Subang Jaya Lestari Baru sebagai developer mengelola proyek untuk beberapa perumahan di wilayah Karawang dan Cikarang di antaranya
 
 * Perumahan Wancimekar Lestari
 * Perumahan Grand Cibening Resindence
@@ -12,24 +12,24 @@ PT SUBANG JAYA LESTARI BARU mengelola proyek sebagai developer untuk beberapa pe
 
 Sebagai kontraktor kami bekerja sama dengan beberapa perusahaan developer untuk membangun perumahan, jalan, electrical engineering, sanitasi di beberapa mitra sebagai berikut.
 
-Bekasi :
+# Bekasi
 
-* Perumahan graha cikarang
-* Perumahan graha ciantra indah
-* Perumahan griya hegar asri
-* Perumahan bumi cikarang makmur 1
-* Perumahan griya sukadami
-* Perumahan griya ciantra
-* Perumahan taman graha mas
+* Perumahan Graha Cikarang
+* Perumahan Graha Ciantra Indah
+* Perumahan Griya hegar asri
+* Perumahan Bumi Cikarang Makmur 1
+* Perumahan Griya Sukadami
+* Perumahan Griya Ciantra
+* Perumahan Taman Graha Mas
 
-Karawang:
+# Karawang
 
-* Perumahan griya klari indah
-* Perumahan cikampek berseri
-* Perumahan dawuan asri
-* RS berkesan karawang
+* Perumahan Griya Klari Indah
+* Perumahan Cikampek Berseri
+* Perumahan Dawuan Asri
+* RS Berkesan Karawang
 
-Bogor 
+# Bogor 
 
-* Perumahan bogor kemang residence
-* Perumahan kemang bogor residence
+* Perumahan Bogor Kemang Residence
+* Perumahan Kemang Bogor Residence
