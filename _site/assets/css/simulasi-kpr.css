@@ -5,5 +5,3 @@ input[type=text]:focus { border: 3px solid #555555; }
 form div { display: grid; grid-template-columns: 1fr 3fr; grid-column: 1 / -1; width: 100%; margin: 10px; }
 
 .div { grid-column: 1 / -1; color: #c80000; }
-
-/*# sourceMappingURL=simulasi-kpr.css.map */

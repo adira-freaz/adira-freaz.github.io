@@ -9,8 +9,8 @@ js_file:
 
 <form autocomplete="off">
     <div class="form_wrapper">
-        <label for="harga_rumah">Harga Properti</label>
-        <input autocomplete="off" type="text" id="harga_rumah" placeholder="Harga properti">
+        <label for="harga_properti">Harga Properti</label>
+        <input autocomplete="off" type="text" id="harga_properti" placeholder="Harga properti">
     </div>
     <div class="form_wrapper">
         <label for="uang_muka">Uang Muka</label>

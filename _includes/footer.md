@@ -13,6 +13,6 @@
 		&copy; {{ site.time | date: '%Y' }} Roger Ferdinan All Rights Reserved
 	</div>
 	<div class="footer-content">
-		<a href="mailto:pt.subangjayalestaribaru@gmail.com"><img src="{{ site.base_url }}/assets/images/email.png" alt="email" loading="lazy" class="footer-img" width="5vh" height="5vh"></a>
+		<a href="mailto:pt.subangjayalestaribaru@gmail.com"><img src="{{ site.base_url }}/assets/images/email.png" alt="email" loading="lazy" class="footer-img"></a>
 	</div>
 </div>

@@ -14,6 +14,8 @@ images:
   title: PDUT
 - path: /assets/images/companion/bumi-begawan-sejahtera.jpg
   title: Bumi Begawan Sejahtera
+- path: /assets/images/companion/la-reverie.jpg
+  title: La Reverie
 ---
 
 <p>Perusahaan kami telah bekerja sama dengan companion-companion sebagai berikut.</p>

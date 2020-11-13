@@ -8,6 +8,5 @@ table { width: 100%; text-align: center; border-collapse: collapse; border-spaci
 
 th, td { border: 2px solid #181818; padding: 0.5rem; }
 
-@media screen and (max-width: 1000px) { .brochure { grid-template-columns: auto; } .table { overflow: scroll; } .brochure img { width: 90vw; } }
-
-/*# sourceMappingURL=residential.css.map */
+@media screen and (max-width: 1000px) { .brochure { grid-template-columns: auto; }
+  .table { overflow: scroll; } }
