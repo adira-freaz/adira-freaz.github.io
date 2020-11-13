@@ -13,12 +13,12 @@ js_file:
         <input autocomplete="off" type="text" id="harga_rumah" placeholder="Harga properti">
     </div>
     <div class="form_wrapper">
-        <label for="uang_muka">Uang Muka / DP 20%</label>
-        <input type="text" id="uang_muka" value="0" readonly>
+        <label for="uang_muka">Uang Muka</label>
+        <input type="text" id="uang_muka" value="Rp 0">
     </div>
     <div class="form_wrapper">
         <label for="pokok_kredit">Pokok Kredit</label>
-        <input type="text" id="pokok_kredit" value="0" readonly>
+        <input type="text" id="pokok_kredit" value="Rp 0" readonly>
     </div>
     <div class="form_wrapper">
         <label for="tenor">Jangka Waktu</label>
@@ -34,14 +34,14 @@ js_file:
     <div class="form_wrapper">
         <label for="suku_bunga">Estimasi Suku Bunga</label>
         <select id="suku_bunga">
-            {% for i in (6..14) %}
+            {% for i in (5..14) %}
                 <option value="{{ i }}"> {{ i }}% </option>
             {% endfor %}
         </select>
     </div>
     <div class="form_wrapper">
         <label for="angsuran">Angsuran</label>
-        <input type="text" id="angsuran" value="0" readonly>
+        <input type="text" id="angsuran" value="Rp 0" readonly>
     </div>
 </form>
-<div>Note : Belum termasuk biaya proses KPR, biaya notaris, pajak, dan lainnya.</div>
+<div class="div">Note : Belum termasuk biaya proses KPR, biaya notaris, pajak, dan lainnya.</div>
