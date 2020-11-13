@@ -6,7 +6,7 @@ js_file:
 ---
 
 <form autocomplete="off">
-    <label for="harga_rumah">Harga Rumah</label>
+    <label for="harga_rumah">Harga Properti</label>
     <input autocomplete="off" type="text" id="harga_rumah" placeholder="Harga properti"><br>
     <label for="uang_muka">Uang Muka / DP 20%</label>
     <input type="text" id="uang_muka" value="0" readonly><br>
