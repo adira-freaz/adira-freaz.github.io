@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "simulasi-kpr.css",
+	"sources": [
+		"simulasi-kpr.scss"
+	],
+	"sourcesContent": [
+		"form {\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-column: 1 / -1;\n}\ninput[type=text]:focus {\n    border: 3px solid rgb(85, 85, 85);\n}\nform div {\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    grid-column: 1 / -1;\n    width: 100%;\n    margin: 10px;\n}"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC,EACD,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,GAAG,EAC1B,WAAW,EAAE,MAAM,GACtB;;AACD,AAAA,KAAK,CAAA,AAAA,IAAC,CAAD,IAAC,AAAA,EAAW,KAAK,CAAC,EACnB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAe,GACpC;;AACD,AAAA,IAAI,CAAC,GAAG,CAAC,EACL,OAAO,EAAE,IAAI,EACb,qBAAqB,EAAE,OAAO,EAC9B,WAAW,EAAE,MAAM,EACnB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACf"
+}

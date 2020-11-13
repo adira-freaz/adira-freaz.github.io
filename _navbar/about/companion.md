@@ -12,7 +12,8 @@ images:
   title: Griya Alam Lestari
 - path: /assets/images/companion/pdut.jpg
   title: PDUT
-
+- path: /assets/images/companion/bumi-begawan-sejahtera.jpg
+  title: Bumi Begawan Sejahtera
 ---
 
 <p>Perusahaan kami telah bekerja sama dengan companion-companion sebagai berikut.</p>
