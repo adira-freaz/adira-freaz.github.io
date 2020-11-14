@@ -156,13 +156,13 @@ body {
 		width: auto;
 	}
 
-@media only screen and (orientation: landscape) {
+@media only screen and ( min-width: 1001px) {
 	.dropdown .dropdown-content {
 		margin-top: 1.8vh;
 		margin-left: 0vw;
 	}
 }
-@media only screen and (orientation: portrait) {
+@media only screen and ( max-width: 1000px ) {
 	.outer-container {
 		min-height: 100%;
 	}
@@ -198,24 +198,24 @@ body {
 				float: right;
 				flex-direction: column;
 				justify-content: space-between;
-				height: 4vh;
+				height: 7vw;
 			}
 				.bar1, .bar2, .bar3 {
 					background: $gray;
-					width: 12vw;
-					height: 2vw;
+					width: 10vw;
+					height: 1.6vw;
 					transition: 0.4s;
 				}
 				.show .bar1 {
 				  -webkit-transform: rotate(-45deg) translate(0, 0);
-				  transform: rotate(-45deg) translate(-1vh, 1vh);
+				  transform: rotate(-45deg) translate(-1.75vw, 1.75vw);
 				}
 				.show .bar2 {
 					opacity: 0;
 				}
 				.show .bar3 {
 				  -webkit-transform: rotate(45deg) translate(0, 0);
-				  transform: rotate(45deg) translate(-1vh, -1vh);
+				  transform: rotate(45deg) translate(-1.75vw, -1.75vw);
 				}
 			.dropdown-content {
 				position: relative;
