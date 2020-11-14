@@ -162,7 +162,7 @@ body {
 		margin-left: 0vw;
 	}
 }
-@media only screen and (orientation: portrait) or (max-width: 600px) {
+@media only screen and (orientation: portrait) {
 	.outer-container {
 		min-height: 100%;
 	}
@@ -182,7 +182,7 @@ body {
 				width: 100%;
 				display: flex;
 				align-items: center;
-				justify-content: space-around;
+				justify-content: space-between;
 			}
 			.img-header {
 				height: auto;
@@ -198,24 +198,24 @@ body {
 				float: right;
 				flex-direction: column;
 				justify-content: space-between;
-				height: 21px;
+				height: 4vh;
 			}
 				.bar1, .bar2, .bar3 {
 					background: $gray;
-					width: 35px;
-					height: 5px;
+					width: 12vw;
+					height: 2vw;
 					transition: 0.4s;
 				}
 				.show .bar1 {
-				  -webkit-transform: rotate(-45deg) translate(-5px, 5px);
-				  transform: rotate(-45deg) translate(-5px, 5px);
+				  -webkit-transform: rotate(-45deg) translate(0, 0);
+				  transform: rotate(-45deg) translate(-1vh, 1vh);
 				}
 				.show .bar2 {
 					opacity: 0;
 				}
 				.show .bar3 {
-				  -webkit-transform: rotate(45deg) translate(-5px, -5px);
-				  transform: rotate(45deg) translate(-5px, -5px);
+				  -webkit-transform: rotate(45deg) translate(0, 0);
+				  transform: rotate(45deg) translate(-1vh, -1vh);
 				}
 			.dropdown-content {
 				position: relative;

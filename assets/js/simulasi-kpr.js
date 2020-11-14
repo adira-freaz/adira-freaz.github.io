@@ -4,7 +4,6 @@ function simulasi_kpr() {
     var harga_properti = parseInt( document.getElementById( "harga_properti" ).value.replace( "Rp", "" ).replaceAll( ".", "" ) );
     var uang_muka = parseInt( document.getElementById( "uang_muka" ).value.replace( "Rp", "" ).replaceAll( ".", "" ) );
     // harga properti
-    document.getElementById("harga_properti").value = harga_properti.toLocaleString('id-ID', rupiah);
     if ( isNaN( harga_properti ) == false ) {
         document.getElementById("harga_properti").value = harga_properti.toLocaleString('id-ID', rupiah);
         document.getElementById( "uang_muka" ).max = harga_properti;
@@ -20,7 +19,6 @@ function simulasi_kpr() {
     var tenor = document.getElementById("tenor").value;
     
     // uang muka
-    document.getElementById( "uang_muka" ).value = uang_muka.toLocaleString('id-ID', rupiah);
     if( isNaN( uang_muka ) == false ) {
             if( uang_muka >= document.getElementById( "uang_muka" ).max ) {
                 uang_muka = document.getElementById( "uang_muka" ).max - 1;
