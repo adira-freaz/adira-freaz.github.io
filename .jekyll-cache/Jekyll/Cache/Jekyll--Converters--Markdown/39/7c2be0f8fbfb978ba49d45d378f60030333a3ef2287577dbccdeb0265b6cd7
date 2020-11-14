@@ -1,11 +1,11 @@
-I"Ý<form autocomplete="off">
+I"û<form autocomplete="off">
     <div class="form_wrapper">
         <label for="harga_properti">Harga Properti</label>
         <input autocomplete="off" type="text" id="harga_properti" placeholder="Harga properti" />
     </div>
     <div class="form_wrapper">
         <label for="uang_muka">Uang Muka</label>
-        <input type="text" id="uang_muka" value="Rp 0" />
+        <input autocomplete="off" type="text" id="uang_muka" placeholder="Uang Muka" />
     </div>
     <div class="form_wrapper">
         <label for="pokok_kredit">Pokok Kredit</label>

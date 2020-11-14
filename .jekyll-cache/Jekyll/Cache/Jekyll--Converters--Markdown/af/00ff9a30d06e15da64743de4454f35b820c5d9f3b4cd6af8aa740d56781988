@@ -1,4 +1,4 @@
-I"<div class="dropdown-wrapper" onclick="DropDownContent(this)">
+I")<div class="dropdown-wrapper" onclick="DropDownContent(this)">
     <a href="javascript:void(0);">
         <h2>Design</h2>
         <span class="content-triangle-down" id="content-triangle"></span>
@@ -93,6 +93,8 @@
     
         
             <img src="/assets/images/service/design-5.jpg" alt="design 5" loading="lazy" width="395" height="295" />
+        
+    
         
     
         
@@ -254,6 +256,8 @@
     
         
     
+        
+    
 </div>
 
 <div class="dropdown-wrapper" onclick="DropDownContent(this)">
@@ -360,7 +364,7 @@
         
     
         
-            <img src="/assets/images/service/konstruksi-2.jfif" alt="konstruksi 2" loading="lazy" width="395" height="295" />
+            <img src="/assets/images/service/konstruksi-2.jpg" alt="konstruksi 2" loading="lazy" width="395" height="295" />
         
     
         
@@ -368,7 +372,7 @@
         
     
         
-            <img src="/assets/images/service/konstruksi-4.jfif" alt="konstruksi 4" loading="lazy" width="395" height="295" />
+            <img src="/assets/images/service/konstruksi-4.jpg" alt="konstruksi 4" loading="lazy" width="395" height="295" />
         
     
         
@@ -376,7 +380,9 @@
         
     
         
-            <img src="/assets/images/service/konstruksi-6.jfif" alt="konstruksi 6" loading="lazy" width="395" height="295" />
+            <img src="/assets/images/service/konstruksi-6.jpg" alt="konstruksi 6" loading="lazy" width="395" height="295" />
+        
+    
         
     
         

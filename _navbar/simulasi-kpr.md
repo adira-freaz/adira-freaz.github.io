@@ -14,7 +14,7 @@ js_file:
     </div>
     <div class="form_wrapper">
         <label for="uang_muka">Uang Muka</label>
-        <input type="text" id="uang_muka" value="Rp 0">
+        <input autocomplete="off" type="text" id="uang_muka" placeholder="Uang Muka">
     </div>
     <div class="form_wrapper">
         <label for="pokok_kredit">Pokok Kredit</label>

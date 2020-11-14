@@ -164,11 +164,10 @@ body {
 }
 @media only screen and (orientation: portrait) {
 	.outer-container {
-		grid-template-columns: 1fr [header-start] [content-start] 18fr [content-end] [header-end] 1fr;
-		-webkit-grid-template-columns: 1fr [content-start] 18fr [content-end] 1fr;
 		min-height: 100%;
 	}
 		.container {
+			grid-template-columns: 1fr [header-start content-start] 10fr [header-end content-end] 1fr;
 			min-height: auto;
 			width: 100%;
 		}

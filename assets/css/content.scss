@@ -70,10 +70,11 @@ ul {
     -webkit-grid-column: content-start / content-end;
     text-align: justify;
 }
-@media screen and (max-width: 600px) {
+@media screen and (orientation: portrait) {
     .content {
         grid-template-columns: [content-start] 1fr [content-end];
         -webkit-grid-template-columns: [content-start] 1fr [content-end];
+        grid-column: content-start / content-end;
     }
     img {
         width: 90vw;

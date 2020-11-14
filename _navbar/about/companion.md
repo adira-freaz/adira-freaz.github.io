@@ -10,7 +10,7 @@ images:
   title: Karawang Duta Propertindo
 - path: /assets/images/companion/griya-alam-lestari.jpg
   title: Griya Alam Lestari
-- path: /assets/images/companion/pdut.jpg
+- path: /assets/images/companion/PDUT.jpg
   title: PDUT
 - path: /assets/images/companion/bumi-begawan-sejahtera.jpg
   title: Bumi Begawan Sejahtera
