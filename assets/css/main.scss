@@ -162,7 +162,7 @@ body {
 		margin-left: 0vw;
 	}
 }
-@media only screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) or (max-width: 600px) {
 	.outer-container {
 		min-height: 100%;
 	}
