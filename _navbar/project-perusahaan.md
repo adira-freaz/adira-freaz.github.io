@@ -16,7 +16,7 @@ Sebagai kontraktor kami bekerja sama dengan beberapa perusahaan developer untuk 
 
 * Perumahan Graha Cikarang
 * Perumahan Graha Ciantra Indah
-* Perumahan Griya hegar asri
+* Perumahan Griya Segar Asri
 * Perumahan Bumi Cikarang Makmur 1
 * Perumahan Griya Sukadami
 * Perumahan Griya Ciantra
