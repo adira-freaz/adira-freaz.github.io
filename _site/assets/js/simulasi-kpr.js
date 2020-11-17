@@ -1,8 +1,8 @@
 function simulasi_kpr() {
     var harga_properti = document.getElementById("harga_properti").value.replace(/[a-zA-Z]+|[.]+|\s+/g , "");
-    console.log(harga_properti);
+    console.log();
     var uang_muka = document.getElementById("uang_muka").value.replace(/[a-zA-Z]+|[.]+|\s+/g , "");
-    if (uang_muka.length >= harga_properti.length) {
+    if ( Number(uang_muka) > Number(harga_properti) ) {
         uang_muka = harga_properti;
     }
     var suku_bunga = document.getElementById( "suku_bunga" ).value / 100;
