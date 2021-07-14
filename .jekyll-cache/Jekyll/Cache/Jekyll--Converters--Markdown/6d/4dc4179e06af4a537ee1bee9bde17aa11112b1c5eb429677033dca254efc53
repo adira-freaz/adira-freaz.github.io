@@ -1,17 +1,117 @@
----
-title: Perumahan Grand Cibening Residence
-layout: content
-extra_css:
-- residential
+I"<div class="brochure">
 
----
+    
 
-<div class="brochure">
-{% for image in site.static_files %}
-    {% if image.path contains "images/residential/grand-cibening" and image.basename contains "Brosur" %} 
-        <img src="{{ site.base_url }}{{ image.path }}" alt="{{ image.basename | replace:'-', ' ' }}">
-    {% endif %}
-{% endfor %}
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+     
+        <img src="/assets/images/residential/grand-cibening/Brosur Cibening 1.jpg" alt="Brosur Cibening 1" />
+    
+
+     
+        <img src="/assets/images/residential/grand-cibening/Brosur Cibening 2.jpg" alt="Brosur Cibening 2" />
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
 </div>
 
 <div class="table">
@@ -57,7 +157,7 @@ extra_css:
             <td>Rp3,263,600</td>
         </tr>
         <tr>
-            <td>1, 9, 10, & 18 (4 unit)</td>
+            <td>1, 9, 10, &amp; 18 (4 unit)</td>
             <td>Rp405,000,000</td>
             <td>Rp.-</td>
             <td>Rp405,000,000</td>
@@ -93,3 +193,4 @@ extra_css:
     </tbody>
 </table>
 </div>
+:ET

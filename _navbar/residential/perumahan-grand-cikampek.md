@@ -24,9 +24,9 @@ extra_css:
             <th colspan="3">Angsuran BTN</th>
         </tr>
         <tr>
-            <th rowspan="2">10 tahun</th>
-            <th rowspan="2">15 tahun</th>
-            <th rowspan="2">20 tahun</th>
+            <th>10 tahun</th>
+            <th>15 tahun</th>
+            <th>20 tahun</th>
         </tr>
     </thead>
     <tbody>

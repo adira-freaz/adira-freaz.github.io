@@ -2,7 +2,7 @@ html { overflow: hidden; overflow-y: auto; }
 
 body { margin: 0; padding: 0; font-family: serif; overflow-x: hidden; overflow-y: auto; font-size: 1rem; }
 
-.outer-container { display: grid; display: -webkit-grid; grid-template-columns: 2fr [header-start] 1fr [content-start] 4fr [content-end] 1fr [header-end] 2fr; -webkit-grid-template-columns: 2fr [content-start] 4fr [content-end] 2fr; grid-auto-rows: auto; -webkit-grid-auto-rows: auto; grid-column-gap: 0.5vw; -webkit-grid-column-gap: 0.5vw; justify-content: center; width: 100vw; height: auto; overflow-x: hidden; overflow-y: auto; }
+.outer-container { display: grid; display: -webkit-grid; grid-template-columns: 2fr [header-start] 1fr [content-start] 6fr [content-end] 1fr [header-end] 2fr; -webkit-grid-template-columns: 2fr [content-start] 6fr [content-end] 2fr; grid-auto-rows: auto; -webkit-grid-auto-rows: auto; grid-column-gap: 0.5vw; -webkit-grid-column-gap: 0.5vw; justify-content: center; width: 100vw; height: auto; overflow-x: hidden; overflow-y: auto; }
 
 .container { display: grid; display: -webkit-grid; grid-template-columns: inherit; -webkit-grid-template-columns: inherit; grid-column-gap: inherit; -webkit-grid-column-gap: inherit; grid-column: 1 / -1; -webkit-grid-column: 1 / -1; justify-content: center; align-items: center; width: 100%; min-height: 100vh; }
 
