@@ -20,7 +20,7 @@ extra_css:
             <th rowspan="2">Tipe</th>
             <th rowspan="2">Harga</th>
             <th rowspan="2">Uang Muka</th>
-            <th rowspan="2">Maximal KPR</th>
+            <th rowspan="2">Maksimum KPR</th>
             <th colspan="3">Angsuran BTN</th>
         </tr>
         <tr>
