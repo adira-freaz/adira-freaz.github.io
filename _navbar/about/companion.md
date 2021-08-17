@@ -16,6 +16,8 @@ images:
   title: Bumi Begawan Sejahtera
 - path: /assets/images/companion/la-reverie.jpg
   title: La Reverie
+- path: /assets/images/companion/sendayu-putra-yudha.jpg
+  title: Sendayu Putra Yudha
 ---
 
 <p>Perusahaan kami telah bekerja sama dengan companion-companion sebagai berikut.</p>

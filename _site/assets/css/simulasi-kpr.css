@@ -7,5 +7,3 @@ form div { display: grid; grid-template-columns: 1fr 3fr; grid-column: 1 / -1; w
 select { width: 15vw; }
 
 .div { grid-column: 1 / -1; color: #c80000; }
-
-/*# sourceMappingURL=simulasi-kpr.css.map */
